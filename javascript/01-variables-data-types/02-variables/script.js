@@ -5,9 +5,9 @@
 // let
 // const
 
-let firstName = 'Destiny';
-const lastName = 'Micheal';
-let age = 30;
+// let firstName = 'Destiny';
+// const lastName = 'Micheal';
+// let age = 30;
 
 // const variable cannot be reassigned
 // let variable can be reassigned
@@ -26,9 +26,9 @@ let age = 30;
 // Only letters,numbers,underscores and dollar sign
 // Can't start with number
 
-let $123 = 60;
+// let $123 = 60;
 
-console.log($123);
+// console.log($123);
 
 // Objective:
 // Understand the basics of variables in JavaScript.
@@ -48,3 +48,22 @@ console.log($123);
 
 //     Create variables to represent different types: numberVar, stringVar, and undefinedVar.
 //     Assign a value of your choice to each variable, making sure they correspond to their respective types.
+
+let firstName, age, favoriteColor;
+
+firstName = 'Francis';
+age = 20;
+favoriteColor = 'black';
+
+console.log(firstName);
+console.log(age);
+console.log(favoriteColor);
+
+// Task 2
+let numberVar, stringVar, undefinedVar;
+
+numberVar = 56;
+stringVar = 'Francis';
+undefinedVar = undefined;
+
+console.log(numberVar, stringVar, undefinedVar);
