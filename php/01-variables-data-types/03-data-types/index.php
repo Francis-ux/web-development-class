@@ -38,6 +38,14 @@ echo '<br>';
 $isLoaded = false;
 var_dump($isLoaded);
 echo '<br>';
+
+// Array
+$friends = array('john', 'jane', 'jill');
+var_dump($friends); // Will show the value and type
+echo '<br>';
+echo gettype($friends);
+echo '<br>';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
