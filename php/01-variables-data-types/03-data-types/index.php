@@ -46,6 +46,21 @@ echo '<br>';
 echo gettype($friends);
 echo '<br>';
 
+// Object -Instance of a class
+$person = new stdClass();
+var_dump($person);
+echo '<br>';
+
+// NULL
+$car = null;
+var_dump($car);
+echo '<br>';
+
+// Resource
+$file = fopen('sample.txt', 'r');
+echo gettype($file); // Resource
+echo '<br>';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
