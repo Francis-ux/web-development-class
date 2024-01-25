@@ -11,7 +11,6 @@
 
 $birthDate = '2001-12-14';
 $userAge = date('Y') - date('Y', strtotime($birthDate));
-$message = "You where born on the 12th of january 2023,you are 20 years of age and you are a teenager";
 
 
 if ($userAge == 18 || $userAge == 19) {
