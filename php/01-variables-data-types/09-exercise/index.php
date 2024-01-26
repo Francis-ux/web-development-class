@@ -17,8 +17,6 @@ if ($userAge == 18 || $userAge == 19) {
     echo "You where born on " . date('D', strtotime($birthDate)) . " " .  date('d', strtotime($birthDate)) . " of " . date("M Y", strtotime($birthDate)) . ", you are {$userAge} years of age and you are a teenager.";
 } elseif ($userAge == 20 || $userAge == 21) {
     echo "You where born on " . date('D', strtotime($birthDate)) . " " .  date('d', strtotime($birthDate)) . " of " . date("M Y", strtotime($birthDate)) . ", you are {$userAge} years of age and you are a senior.";
-} elseif ($userAge >= 22) {
+} elseif ($userAge > 21) {
     echo "You where born on " . date('D', strtotime($birthDate)) . " " .  date('d', strtotime($birthDate)) . " of " . date("M Y", strtotime($birthDate)) . ", you are {$userAge} years of age and you are a adult.";
-} else {
-    echo "You where born on " . date('D', strtotime($birthDate)) . " " . date('d', strtotime($birthDate)) . " of " . date("M Y", strtotime($birthDate)) . ", you are {$userAge} years of age and you are a kid.";
 }
