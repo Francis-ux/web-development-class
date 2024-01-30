@@ -31,4 +31,20 @@ $ids2 = array_slice($ids, 2, 3);
 // array_splice
 array_splice($ids, 1, 2, 'New ID');
 
-var_dump($ids);
+// array_sum
+$output = array_sum($ids);
+
+// array_search 
+$output = array_search(15, $ids);
+
+// in_array
+$output =  in_array(15, $ids);
+
+// explode
+$name = 'Francis-Micheal';
+$output = explode('-', $name);
+
+// implode
+$output = implode(', ', $ids);
+
+var_dump($output);
