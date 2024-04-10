@@ -1,0 +1,17 @@
+--HTML--
+
+HYPER TEXT MARK UP LANGUAGE 
+
+
+HTML is used in structure a web application
+
+--TAGS--
+
+Opening and closing tag eg <html> Hello World </htmL>
+Self closing tag eg <br/> = break , <hr/> = horizontal line
+
+--ELEMENTS--
+
+Block level elements eg <h1>, <h2>
+Inline level elements eg <br/>, <b></b>, <u> </u>
+
