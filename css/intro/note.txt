@@ -1,0 +1,25 @@
+CSS 
+
+Cascading Style Sheet
+
+Three Type Of CSS 
+
+-inline css 
+-internal css 
+-external css 
+
+INLINE CSS
+
+It works using a style attribute then followed inline with the property and value
+
+INTERNAL CSS 
+
+Using a selector, It works using a style tag in the head then followed inside with the property and value
+
+selector using tag name 
+selector using id attributes
+selector suing class attributes
+
+EXTERNAL CSS 
+
+It works using a reference link to another css file created externally then followed inside the file with the property and value
